@@ -1,0 +1,43 @@
+name: Fetch Jobs Daily
+
+on:
+  schedule:
+    # Run every day at 9 AM PKT (Pakistan Time = UTC+5)
+    # 9 AM PKT = 4 AM UTC
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Allows manual triggering from GitHub Actions UI
+
+jobs:
+  fetch-jobs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run fetch-jobs script
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          RAPIDAPI_HOST: ${{ secrets.RAPIDAPI_HOST }}
+        run: |
+          # Set default RAPIDAPI_HOST if not provided
+          export RAPIDAPI_HOST=${RAPIDAPI_HOST:-jsearch.p.rapidapi.com}
+          npm run fetch-jobs
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Job fetch failed. Check the logs above for details."
+          exit 1
