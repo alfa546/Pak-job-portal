@@ -6,4 +6,6 @@ export const JOB_KEYWORDS = [
   'Scholarship Jobs in Pakistan',
   'Engineering Jobs in Pakistan',
   'Veterinary Jobs in Pakistan',
+  'Remote Jobs in Pakistan',
+  'Government Jobs in Pakistan',
 ];
