@@ -134,13 +134,6 @@ function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-/**
- * Delay function to avoid rate limiting
- */
-function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 export async function GET(request: NextRequest) {
   try {
     const adzunaAppId = process.env.ADZUNA_APP_ID;

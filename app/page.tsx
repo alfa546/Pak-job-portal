@@ -239,7 +239,7 @@ export default function Home() {
             </h3>
             <p className="text-gray-600 mb-6 max-w-md mx-auto">
               {jobs.length === 0
-                ? "We're constantly updating our job listings. Check back soon for new opportunities!"
+                ? "We&apos;re constantly updating our job listings. Check back soon for new opportunities!"
                 : "Try adjusting your search terms or location to find more results."}
             </p>
             {jobs.length > 0 && (
@@ -341,7 +341,7 @@ export default function Home() {
                   <div className="bg-purple-50 p-4 rounded-xl">
                     <div className="text-2xl mb-2">🏢</div>
                     <strong>Top Companies</strong><br/>
-                    Pakistan's best employers
+                    Pakistan&apos;s best employers
                   </div>
                   <div className="bg-green-50 p-4 rounded-xl">
                     <div className="text-2xl mb-2">📍</div>
@@ -360,7 +360,7 @@ export default function Home() {
               <div className="bg-gradient-to-r from-yellow-400 to-orange-500 rounded-3xl p-8 text-center text-white shadow-xl">
                 <h3 className="text-2xl font-bold mb-4">🚀 Powered by Nouman Sajid</h3>
                 <p className="text-lg mb-4">
-                  Dedicated to empowering Pakistan's job seekers with cutting-edge technology and user-friendly solutions.
+                  Dedicated to empowering Pakistan&apos;s job seekers with cutting-edge technology and user-friendly solutions.
                 </p>
                 <div className="flex justify-center space-x-4">
                   <div className="bg-white bg-opacity-20 px-4 py-2 rounded-full">
@@ -417,7 +417,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold">JobBoard PK</h3>
               </div>
               <p className="text-gray-300 mb-4 max-w-md">
-                Connecting Pakistan's top talent with leading companies. Find your dream job or discover the perfect candidate.
+                Connecting Pakistan&apos;s top talent with leading companies. Find your dream job or discover the perfect candidate.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
