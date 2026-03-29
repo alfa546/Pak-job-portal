@@ -9,7 +9,9 @@
 
 ** Human diet and Nutrient jobs **
 
-** Software Engineering job
+** Software Engineering job **
+
+** Graphic Designer job **
 
 <div align="center">
 
