@@ -2,7 +2,7 @@
 
 ** Almost 1000 jobs fetch by different platform **
 
-** Fetch almost daily jobs daily **
+** Fetch almost 10 jobs daily **
 
 ** Pakistan top companies jobs**
 
