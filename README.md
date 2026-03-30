@@ -2,6 +2,8 @@
 
 ** Almost 1000 jobs fetch by different platform **
 
+** Fetch almost daily jobs daily **
+
 ** Pakistan top companies jobs**
 
 ** DVM doctor job **
