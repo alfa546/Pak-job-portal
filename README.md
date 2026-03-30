@@ -1,4 +1,5 @@
 # 🇵🇰 Pak Job Portal
+
 ** Almost 1000 jobs fetch by different platform **
 
 ** Pakistan top companies jobs**
@@ -20,6 +21,8 @@
 ** Poultry jobs **
 
 ** Physician jobs **
+
+** Nurse jobs **
 
 <div align="center">
 
