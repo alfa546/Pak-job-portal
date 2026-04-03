@@ -2,7 +2,6 @@
 
 ** Almost 1000 jobs fetch by different platform **
 
-** Fetch almost 10 jobs daily **
 <div align="center">
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
