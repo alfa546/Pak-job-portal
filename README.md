@@ -10,7 +10,6 @@
 
 ** MBBS Doctor Job **
 
-** Human diet and Nutrient jobs **
 
 <div align="center">
 
