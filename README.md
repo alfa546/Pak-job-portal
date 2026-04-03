@@ -20,7 +20,6 @@
 
 ** Web developer job **
 
-** Poultry jobs **
 
 <div align="center">
 
