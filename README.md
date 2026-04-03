@@ -24,7 +24,6 @@
 
 ** Physician jobs **
 
-** Nurse jobs **
 
 <div align="center">
 
