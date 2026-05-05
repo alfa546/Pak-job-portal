@@ -55,7 +55,6 @@ Whether you're a fresh graduate or an experienced professional, Pak Job Portal m
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
-|---|---|
 | **Next.js** | Frontend framework (SSR + SSG) |
 | **React.js** | UI component library |
 | **JavaScript (ES6+)** | Core programming language |
