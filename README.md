@@ -1,6 +1,6 @@
 # 🇵🇰 Pak Job Portal
 
-** Almost 1000 jobs fetch by different platform **
+** Almost 1000 jobs fetch by different platform and scraping web**
 
 <div align="center">
 
